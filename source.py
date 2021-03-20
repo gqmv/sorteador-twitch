@@ -1,3 +1,4 @@
+# The contents of this file are, unless where otherwise noted, licensed under https://github.com/gqmv/sorteador-twitch/LICENSE.md
 import requests
 import random
 
