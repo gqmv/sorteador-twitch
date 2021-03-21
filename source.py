@@ -23,7 +23,7 @@ for viewer in viewers: print(viewer.name)
 
 input("Para sortear, aperte enter.")
 while True:
-    winner = viewers[random.randint(0, len(viewers) - 1)]
+    winner = random.choice(viewers)
     print(f"O vencedor é {winner.name}, ele já foi sorteado outras {winner.wins} vezes.")
 
     winner.increase()
